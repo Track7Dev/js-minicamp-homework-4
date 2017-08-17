@@ -1,0 +1,30 @@
+Brandon Fizer
+8/16/17
+	MiniBootCamp-HW4 : 
+	Callback Functions-Closure-arguments-Recursion-prototype-Constructors
+
+Callback Function: 
+	-a Callback function is a function(block of code to do something) that is placed
+	in the paramater of another function to be called and run inside of that function.
+Closure:
+	-Closure is when a function(block of code to do something) inside of another function
+	that has access to data stored iside itself, the outer function, and the global data 
+	outside of that function
+
+arguments:
+	-arguments are the data passed into the paramaters of a function.
+	- the arguments Object is an array(Container) of arguments(Data) used when the 
+	function(block of code to do something) was called;
+	-The arguments Object is used when you want the function to take in an unkown amount of data
+	
+Recursion:
+	-Recursion is when you use a Function(block of code to do something) to invoke or call itself.
+
+prototype:
+	-prototypes is the original Object(Noun) and each cloned Object inherits the properties(adj), data, 
+	and methods(Block of code to do something)from that prototype;
+Constructors:
+	-A contructor is an Object that holds default template of properties that you populate when the
+	constuctor is invoked(Called)  
+	
+
