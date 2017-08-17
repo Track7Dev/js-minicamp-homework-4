@@ -114,15 +114,15 @@ function cacheFunction(cb) {
   // if the function you return is invoked again with 5 it will look on an object in the closure scope
   // and return 25 directly and will not invoke cb again
 
-    var cachedNumber = {};
+    var cachedNumbersObj = {};
     
     return function(num) {
 
         var property = 'Prop' + num;
-        
-        if (cachedNumber.hasOwnProperty(property)) return cachedNumber[property]; 
 
-        return cachedNumber[property] = cb(num);
+        if (cachedNumbersObj.hasOwnProperty(property)) return cachedNumbersObj[property]; 
+
+        return cachedNumbersObj[property] = cb(num);
         
     };
 
